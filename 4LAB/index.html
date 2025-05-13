@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета веб-розробника</title>
+</head>
+<body>
+
+  <h1>
+    Анкета кандидата на посаду веб-розробника
+  </h1>
+
+  <form>
+
+    <fieldset>
+      <legend>
+      Персональні дані
+      </legend>
+
+      <label for="fullname">Повне ім’я:</label><br>
+      <input type="text" id="fullname" name="fullname"><br><br>
+
+      <label for="age">Вік:</label><br>
+      <input type="number" id="age" name="age"><br><br>
+
+      <label for="birthdate">Дата народження:</label><br>
+      <input type="date" id="birthdate" name="birthdate"><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>
+      Ваші навички
+      </legend>
+
+      <p>Знання мов програмування:</p>
+      <input type="checkbox" id="html" name="skills" value="HTML">
+      <label for="html">HTML</label><br>
+
+      <input type="checkbox" id="css" name="skills" value="CSS">
+      <label for="css">CSS</label><br>
+
+      <input type="checkbox" id="js" name="skills" value="JavaScript">
+      <label for="js">JavaScript</label><br>
+
+      <p>Досвід розробки:</p>
+      <input type="radio" id="junior" name="experience" value="junior">
+      <label for="junior">Початковий (Junior)</label><br>
+
+      <input type="radio" id="middle" name="experience" value="middle">
+      <label for="middle">Середній (Middle)</label><br>
+
+      <input type="radio" id="senior" name="experience" value="senior">
+      <label for="senior">Досвідчений (Senior)</label><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>
+      Контактна інформаці
+      </legend>
+
+      <label for="email">Електронна пошта:</label><br>
+      <input type="email" id="email" name="email"><br>
+
+      <label for="phone">Телефон:</label><br>
+      <input type="tel" id="phone" name="phone"><br>
+
+      <label for="portfolio">Посилання на портфоліо:</label><br>
+      <input type="url" id="portfolio" name="portfolio"><br>
+
+      <label for="github">GitHub профіль:</label><br>
+      <input type="url" id="github" name="github"><br><br>
+
+      <label for="favcolor">Улюблений колір інтерфейсу:</label><br>
+      <input type="color" id="favcolor" name="favcolor"><br><br>
+    </fieldset>
+
+    <input type="submit" value="Надіслати анкету">
+    <input type="reset" value="Очистити форму">
+  </form>
+
+</body>
+</html>

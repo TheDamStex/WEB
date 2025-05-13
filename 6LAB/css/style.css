@@ -1,0 +1,78 @@
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.main-heading {
+    color: orangered;
+    font-style: italic;
+    border-bottom: 2px solid orangered;
+    padding-bottom: 10px;
+}
+
+.roman-list {
+    list-style-type: upper-roman;
+    padding-left: 20px;
+}
+
+.text1 {
+    color: aquamarine;
+    font-style: normal;
+}
+
+.text2 {
+    color: aqua;
+    font-style: oblique;
+    font-size: medium;
+}
+
+.text3 {
+    color: blue;
+    font-style: normal;
+}
+
+.alpha-list {
+    list-style-type: lower-alpha;
+    padding-left: 20px;
+}
+
+.text4 {
+    color: brown;
+    font-style: italic;
+    font-size: medium;
+}
+
+.text5 {
+    color: violet;
+    font-style: normal;
+}
+
+.text6 {
+    color: tomato;
+    font-style: oblique;
+}
+
+.sublist {
+    margin-left: 20px;
+    font-size: medium;
+}
+
+.disc {
+    list-style-type: disc;
+    color: brown;
+    font-style: italic;
+}
+
+.square {
+    list-style-type: square;
+    color: violet;
+    font-style: normal;
+}
+
+.circle {
+    list-style-type: circle;
+    color: tomato;
+    font-style: oblique;
+}
